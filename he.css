@@ -1,0 +1,50 @@
+body{   background-position: center top;
+    background-image:url("image/ari.jpg");}
+    background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    li{font-size:large;;
+      float: right;}
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    table{
+      margin: 0;
+      padding: 5px;
+    
+    }
+    
+    table > h1, p, .browser { 
+      margin: 10px;
+      padding: 5px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .browser {
+      background:lightblue;
+     
+    }
+    
+    .browser > h2, p {
+      margin: 4px;
+      font-size: 90%;
+      text-align: center;
+    }
